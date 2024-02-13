@@ -4,7 +4,7 @@
   "description": "my lint configs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint './**/*.{js,jsx,ts,tsx}'"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +12,7 @@
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^15.6.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
