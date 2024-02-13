@@ -1,5 +1,4 @@
 import { primeiroTeste } from './ateste';
-import { segundoteste } from './bteste';
 
 export default function Home() {
   primeiroTeste();

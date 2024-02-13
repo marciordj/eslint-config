@@ -5,7 +5,13 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  plugins: ['react', 'prettier', '@typescript-eslint', 'import'],
+  plugins: [
+    'react',
+    'prettier',
+    '@typescript-eslint',
+    'import',
+    'unused-imports',
+  ],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
@@ -34,6 +40,7 @@ module.exports = {
         arrowParens: 'always',
       },
     ],
+    'unused-imports/no-unused-imports': 'error',
     'import/order': [
       'error',
       {
