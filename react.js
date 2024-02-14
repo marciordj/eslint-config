@@ -36,6 +36,7 @@ module.exports = {
       'error',
       {
         tabWidth: 2,
+        printWidth: 80,
         singleQuote: true,
         arrowParens: 'always',
       },
